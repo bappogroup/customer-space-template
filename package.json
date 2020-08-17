@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "bappo-scripts test",
+    "test:update": "bappo-scripts test --updateSnapshot",
+    "lint": "bappo-scripts lint",
+    "format": "bappo-scripts format",
+    "validate": "bappo-scripts validate"
+  },
+  "devDependencies": {
+    "@bappo/scripts": "^1.3.1",
+    "@types/lodash": "^4.14.159",
+    "@types/react": "^16.9.46",
+    "typescript": "3.7.x"
+  },
+  "dependencies": {
+    "bappo-components": "^0.1.0-alpha.164",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "bappo-scripts pre-commit"
+    }
+  },
+  "importSort": {
+    ".js, .jsx, .ts, .tsx": {
+      "style": "module",
+      "parser": "typescript"
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
