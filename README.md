@@ -95,6 +95,8 @@ You can follow the workflow below:
 
 1. One of you will merge (preferably Squash and Merge for a cleaner commit history) the PR into the master branch.
 
+1. Delete the branch if not needed anymore.
+
 ## Troubleshooting
 
 - Q: My code is not getting formatted when I commit.
