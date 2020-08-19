@@ -32,7 +32,7 @@ The following workflow is a recommendation. You are welcome to give us your idea
 
 ## About the `utils` package
 
-The `utils` package under `/packages` is not something special. It's just a normal Bappo code package. The reason we put it in the template is that we found it quite common for packages to import [lodash](https://lodash.com/) and [moment](https://momentjs.com/). By putting common dependencies in a separate package can reduce the amount to code that needs to be downloaded when an end user opens a custom coded page. You can make changes to it however you like or delete it if you don't need it.
+The `utils` package under `/packages` is not something special. It's just a normal Bappo code package. The reason we put it in the template is that we found it quite common for packages to import [lodash](https://lodash.com/) and [moment](https://momentjs.com/). By putting common dependencies in a separate package, we can reduce the amount of code that needs to be downloaded when an end user opens a custom coded page. You can make changes to it however you like or delete it if you don't need it.
 
 ## Set up your local development environment
 
