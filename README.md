@@ -20,6 +20,14 @@ The following workflow is a recommendation. You are welcome to give us your idea
 
 1. Clone this repo to your computer ([see how to set up your local development environment](#set-up-your-local-development-environment)). Then rename the folder to your project name and publish it to Github.
 
+1. Reinitialize git by running the following commands.
+```sh
+rm -rf .git
+git init
+```
+
+1. Push the repository to github or you can do it later.
+
 1. Run `yarn` in the root folder to install dependencies.
 
 1. Whenever you add a new package in Bappo, create a folder with the same name under `/packages`.
